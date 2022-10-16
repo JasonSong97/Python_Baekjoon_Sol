@@ -8,3 +8,9 @@ min_a = a.replace('6', '5')
 min_b = b.replace('6', '5')
 
 print(int(min_a)+int(min_b), int(max_a)+int(max_b), sep = ' ')
+
+# 2
+s=input()
+print(sum(map(int,s.replace('6','5').split(' '))),sum(map(int,s.replace('5','6').split(' '))))
+
+# 3
