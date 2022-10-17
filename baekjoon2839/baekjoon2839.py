@@ -1,4 +1,4 @@
-# 모범답안
+# 1
 n = int(input())
 result = 0
 
